@@ -4,14 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: bisque;
+        }
+    </style>
 </head>
 <body>
     <h1>Principais formatações</h1>
     <h2>Negrito/Destaque</h2>
     <p>Nesta frase, temos um <b>termo em destaque</b> com a tag B (não semântica)</p>
     <p>E nesta, temos um <strong>termo em destaque com sentido</strong> usando a tag STRONG (semântica)</p>
+
     <h2>Itálico / Ênfase</h2>
     <p>Estou deixando em <i>itálico</i> com a tag I (não semântica).</p>
     <p>Aqui, estou deixando em <em>ênfase</em> com a tag EM (semântica).</p>
+
+    <h2>Texto marcado</h2>
+    <p>Podemos <mark>marcar um texto</mark> com a tag MARK.</p>
+    <p>E aqui temos um <mark style="background-color: lightskyblue;">texto marcado</mark> diferente dos outros.</p>
+    <p>Aqui nós temos outro <mark>texto marcado</mark> de cor pré-definida.</p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Temos um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo. <br> <small>Infelizmente, a tag BIG está obsoleta, então não se deve usá-la.</small></p>
+
+    <h2>Texto Deletado</h2>
+    <p>Aqui há um <del>texto deletado</del> com a tag DEL.</p>
+
+    <h2>Texto Inserido</h2>
+    <p>Aqui há um <ins>texto inserido</ins> com a tag INS (semântica) para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Aqui há um <u>texto sublinhado</u> com a tag U (não semântica)</p>
+
+
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas como x<sup>2</sup>+x usamos a tag SUP.</p>
+
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas como H<sub>2</sub>O usamos a tag SUB.</p>
 </body>
 </html>
