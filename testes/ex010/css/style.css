@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/*não podemos aplicar margem a um elemento de nível inline.
+*/
+
+/*Os elementos de uma lista são de nível bloco*/
+/* A tag a é um elemento de n[ivel inline. */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    background-color: black;
+    padding: 0.5em;
+    list-style-type: none;
+    text-align: right;
+}
+
+
+li{
+    display: inline-block;
+    /*Alguns dos valores sã opara display inline, block e inline-block. O inline-block é um espécie de híbrido que mistura as duas coisas, tendo funcionalidades de inline e também de block.*/
+    /* Se display for none, o elemento desaparecerá da tela, apesar de não ser tão bom para acessibilidade. */
+    margin-inline: 40px;/*Só muda o espaçamento na linha, não fora (para cima, por exemplo, não funciona)*/
+    
+
+}
+
+li a{
+    color: #CCC;
+    text-decoration: none;
+}
+
+li a:hover, li a:focus{
+    display: block;
+    text-decoration: underline;
+}

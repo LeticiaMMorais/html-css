@@ -1,0 +1,24 @@
+/* A coluna nunca deve ser menor que 250px */
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-size:62.5%;
+    /* Deixa com 10px (se o padrão do navegador for de 16px). */
+}
+
+body{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .columns { */
+    /* column-count: 4;
+    column-width: 250px; */
+    /* É o mesmo que: */
+/*    columns: 4 250px;
+    column-rule: 1px solid #000; 
+} */

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+nav {
+    margin: auto;
+    font-size: 2rem;
+    border: 2px solid black;
+    max-width: 600px;
+    border-radius: 2rem;
+}
+
+h1.titulo-principal {
+    background-color: gold;
+    padding: 0.7rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2em;
+}
+
+li{
+    border-top: 1px solid #333;
+}
+
+li a {
+    display: block;
+}
+
+li a, li a:visited{
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover, li a:focus {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+li:last-child a {
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+
+li a:active {
+    color: rgb(148, 230, 255);
+}
+
+
+
+
+/* nav > .cabecalho{ *//*seletor pai-filho, child selector*//*
+    margin: 0;
+    align-items: flex-end;
+} */
+
+/*Seletores de irmãos*/
+/*Adjacente Sibling: Quando quer pegar o primeiro irmão que vem depois do especificado*/
+
+/* nav h1 + p {
+    color:aqua ;
+} */
+
+/*General Sibling Seletor: Vai mudar dos <p> depois do <h1> de <nav>*/
+/* nav .titulo-do-cabecalho ~ p {
+    color:rgb(135, 193, 255)
+}
+
+p {
+    text-align: center;
+}  */
+

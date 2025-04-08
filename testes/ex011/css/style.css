@@ -1,0 +1,41 @@
+/* Iremos fazer um elemento flutuar nesse exercício. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.block {
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    align-items: center;
+}
+.left {
+    float:left; 
+    /* float é a propriedade que usamos para flutuar um elemento. */
+    margin-right: 1em;
+}
+
+.right {
+    float:right; 
+    /* float é a propriedade que usamos para flutuar um elemento. */
+    margin-left: 1em;
+}
+.clear{
+    clear: both; 
+    /* clear serve para dar um tipo de "quebra de linha" em que o texto só irá continuar depois do elemento classe clear (nesse caso) */
+}
+
+section {
+    background-color:  bisque;
+    padding: 0.5em;
+    display: flow-root;
+    /* O valor flow-root em display vai fazer com que a cor de fundo cubra (no mínimo) todo o espaço que há o fluante, mesmo que não tenha conteúdo o suficiente. */
+}
