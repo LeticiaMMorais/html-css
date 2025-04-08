@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual o seu nome?')
+        document.write(`O seu nome tem ${nome.length} letras.<br>Seu nome em maiúsculo é ${nome.toLocaleUpperCase()}.<br>Seu nome em minúsculo é ${nome.toLowerCase()}.<br><br>`)
+
+        var salario = Number.parseFloat(window.prompt('Qual o seu salário?'))
+        document.write(`Seu salário é de ${salario.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})}.`)
+    </script>
+</body>
+</html>
