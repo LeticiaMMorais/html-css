@@ -1,0 +1,42 @@
+body {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.card {
+    width: 60%;
+    padding: 2rem;
+    margin: 20vh auto;
+
+    background-color: rgb(251, 246, 240);
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+
+    font-size: 2rem;
+}
+
+.card button {
+    padding: 1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: goldenrod;
+    
+    font-size: 1.2rem;
+}
+
+.dark-mode{
+    color: white;
+    background-color: gray;
+}
+
+.dark-mode .card {
+    background-color: rgb(23, 23, 23);
+
+    border-color: blue;
+}
+
+.dark-mode .card button {
+    background-color: blue;
+    color: white;
+}
+    
